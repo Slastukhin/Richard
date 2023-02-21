@@ -1,0 +1,1 @@
+$(document).ready((function(){$(".header__burger").click((function(e){$(".header__burger,.header__menu").toggleClass("active"),$("body").toggleClass("lock")}))})),new Swiper(".swiper",{navigation:{nextEl:".swiper-button-next",prevEl:".swiper-button-prev"},observer:!0,observeParents:!0,observeSlideChildren:!0,pagination:{el:".swiper-pagination",clickable:!0}});
